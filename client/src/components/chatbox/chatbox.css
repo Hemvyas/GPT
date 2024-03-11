@@ -1,0 +1,63 @@
+.chatbox {
+  flex: 1;
+  background-color: #343541;
+  position: relative;
+  color: #fff;
+}
+.inputbox {
+  padding: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.inputbox-textarea {
+  background: #40414f;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 12px;
+  padding: 12px;
+  color: #fff;
+  font-size: 1.2em;
+}
+.btn {
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.chat {
+  padding: 7px;
+  text-align: left;
+}
+.chat-message {
+  display: flex;
+  padding: 10px 24px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+.chat-message.gpt {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.img {
+  border-radius: 50%;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+.message {
+  padding: 0px 40px;
+  margin-left: 12px;
+}
+
+
